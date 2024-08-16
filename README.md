@@ -11,6 +11,9 @@ This project aims to build a machine learning model to classify emails as spam o
 You can install the required libraries using pip:
 ```bash
 pip install numpy pandas matplotlib scikit-learn
+
+
+
 Dataset
 The dataset used in this project is email_spam_data.csv, which should be placed in the D:/ directory. The dataset contains email messages and their labels (spam or ham).
 
