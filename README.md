@@ -7,7 +7,12 @@ This project aims to build a machine learning model to classify emails as spam o
 - Python 3.x
 - Libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
 
-Dataset
+## Installation
+You can install the required libraries using pip:
+-pip install numpy pandas matplotlib scikit-learn
+
+
+## Dataset
 The dataset used in this project is email_spam_data.csv, which should be placed in the D:/ directory. The dataset contains email messages and their labels (spam or ham).
 
 ## Steps
@@ -34,7 +39,4 @@ Use the trained model to predict whether a sample email is spam or not.
 ## Usage
 To run the project, execute the Python script. The script will load the dataset, preprocess it, train the model, evaluate its performance, and predict the category of a sample email.
 
-## Installation
-You can install the required libraries using pip:
-```bash
-pip install numpy pandas matplotlib scikit-learn
+
